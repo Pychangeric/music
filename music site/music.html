@@ -87,15 +87,56 @@
 
             </div>
         </div>
-        <div class="song_side"></div>
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li>
+                </ul> 
+                <div class="search">
+                    
+                </div>
+            </nav>
+        </div>
+
+
 
         <div class="master_play">
             <div class="wave">
-                <div class="wwave1"></div>
-                <div class="wwave1"></div>
-                <div class="wwave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
             </div>
+            <img src="https://i.ytimg.com/vi/llGQMlkgkpk/maxresdefault.jpg" alt="" id="poster_master_play">
+            <h5 id="title">
+                vade chadrachopra
+                <div class="subtitle">Bankim Chadra</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+                <i class="bi bi-play"></i>
+                <i class="bi bi-download" id="download_music"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+            <input type="range"  id="seek" min="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+           </div>
+           <span id="current">0:30</span>
+           <div class="vol">
+            <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+            <input type="range" min="0" max="100" id="vol">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+           </div>
         </div>
+
     </header>
     <script src="music.js"></script>
 </body>
